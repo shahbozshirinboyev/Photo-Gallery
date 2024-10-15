@@ -51,6 +51,13 @@ function PhotoGallery() {
                     buttonPrev: () => null, // Chapga o'tkazuvchi tugmani o'chiradi
                     buttonNext: () => null, // O'ngga o'tkazuvchi tugmani o'chiradi
                   }}
+                  zoom={{
+                    maxZoomPixelRatio: 5,  // Zoom imkoniyatlarini oshiradi (bu qiymatni oshirishingiz mumkin)
+                    zoomInMultiplier: 2,   // Zoom bosqichlari tezligini boshqaradi
+                    doubleTapDelay: 300,   // Ikki marta bosish uchun kechikish vaqti (ms)
+                    doubleClickDelay: 300, // Ikki marta bosish uchun kechikish vaqti (ms)
+                    scrollToZoom: true,    // Skrin qilish orqali zoom qilish imkoniyati
+                }}
             />
 
         </>
