@@ -1,8 +1,10 @@
-# React + Vite
+# React + Vite + TailwindCSS 
+# yet-another-react-lightbox
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website: [Yet Another React Lightbox](https://yet-another-react-lightbox.com/)
 
-Currently, two official plugins are available:
+Website: [TailwindCSS](https://tailwindcss.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Website: [Lorem Picsum](https://picsum.photos/)
+
+
