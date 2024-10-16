@@ -47,6 +47,7 @@ function PhotoGallery() {
                 close={() => setOpen(false)}
                 slides={[ { src: `${activeImg}` } ]}
                 carousel={{ finite: true }}
+                styles={{ container: { backgroundColor: "rgba(0, 0, 0, .8)" } }}
                 render={{
                     buttonPrev: () => null, // Chapga o'tkazuvchi tugmani o'chiradi
                     buttonNext: () => null, // O'ngga o'tkazuvchi tugmani o'chiradi
